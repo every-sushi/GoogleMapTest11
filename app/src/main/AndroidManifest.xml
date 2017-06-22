@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nowaste24.googlemaptest11">
+    <uses-permission android:name="android.permission.INTERNET"/> <!--인터넷을 사용한다-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> <!--외부에 있는 저장공간 접근해서 쓸때 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <!--네트워크를 사용하겠다-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> <!--정확한 위치-->
 
     <application
         android:allowBackup="true"
